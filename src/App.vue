@@ -359,6 +359,7 @@ div ul {
   width: 45%;
   font-size: 1.1rem;
   margin-top: 1.1vw;
+  color: #4D4C4C;
 }
 
 #dois button {
