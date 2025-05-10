@@ -49,6 +49,57 @@
       </nav>
     </div>
   </section>
+
+
+
+
+
+   <footer>
+    <div class="maior">
+      <div class="social">
+        <p>IFbooks</p>
+        <ul class="icons">
+          <li>
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="contato">
+        <p class="con">Contato</p>
+        <ul class="one">
+          <li>
+            <p><i class="fa-solid fa-hashtag"></i> +55 47 40045263</p>
+          </li>
+          <li>
+            <p><i class="fa-solid fa-clock"></i> 8h às 23h - Seg a Sex</p>
+          </li>
+          <li>
+            <p><i class="fa-solid fa-envelope"></i> contato@ifbooks.com</p>
+          </li>
+        </ul>
+        <ul class="two">
+          <li>
+            <img src="/public/imgs/paypal.jpg" alt="PayPal">
+          </li>
+          <li>
+            <img src="/public/imgs/MasterCard-Logo-1979 1.png" alt="MasterCard">
+          </li>
+          <li>
+            <img src="/public/imgs/Visa.png" alt="Visa">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="direitos">
+      <p>© Alguns direitos reservados. IFbooks 2025.</p>
+    </div>
+  </footer>
   </template>
 
 <style scoped>
@@ -141,4 +192,98 @@ div ul {
   color: #231F2D;
   cursor: pointer;
 }
+/*=================================================================================Footer==============================================================*/
+
+footer {
+  background-color: #27ae60;
+
+}
+
+footer .maior {
+  padding: 3vw 0 2vw 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #d8d8d8 solid 2px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8vw;
+}
+
+.social p {
+  font-size: 1.3rem;
+  color: white;
+  margin-bottom: 1vw;
+  font-weight: 300;
+}
+
+.social .icons {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social .icons li i {
+  color: white;
+  font-size: 2.5rem;
+  margin-right: 1vw;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  margin-right: 8vw;
+  text-align: left;
+}
+
+.contato .con {
+  font-size: 1.3rem;
+  color: white;
+  margin-bottom: 1.2vw;
+  font-weight: 400;
+
+}
+
+.contato ul {
+  padding-left: 0;
+
+}
+
+.contato .one {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4vw;
+}
+
+.contato .one li p {
+  color: rgb(236, 236, 236);
+  font-size: 1.1rem;
+  margin-bottom: 0.8vw;
+}
+
+.contato .one li p i {
+  margin-right: 0.5vw;
+}
+
+.direitos {
+  display: flex;
+  justify-content: center;
+  padding: 1vw;
+  font-size: 1.2rem;
+  color: rgb(219, 219, 219);
+}
+
+.two {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1vw;
+}
+
+.two li img {
+  width: 57px;
+  border-radius: 4px;
+}
+
 </style>
