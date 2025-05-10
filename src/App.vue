@@ -476,7 +476,12 @@ div ul {
   color: white;
   border: none;
   border-radius: 4px;
+  transition: background-color 0.15s ease-in-out;
 }
+#dois button:active{
+  background-color: rgb(5, 107, 9);
+}
+
 
 .img {
   display: flex;
@@ -604,6 +609,10 @@ div ul {
   font-size: 1rem;
   margin-top: 1.3vw;
   cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+.books-container .shop .comprar:active{
+  background-color: rgb(5, 107, 9);
 }
 
 .books-container .shop img {
@@ -838,6 +847,7 @@ footer .maior {
   background-color: white;
   border-radius: 4px;
   font-weight: 500;
+
 }
 .cupom input{
   font-size: 1.1rem;
@@ -867,6 +877,10 @@ footer .maior {
   height: 16%;
   color: white;
   border: none;
+   transition: background-color 0.15s ease-in-out;
+}
+.cupom button:active{
+  background-color: rgb(5, 107, 9);
 
 }
 .abaixo{
@@ -922,9 +936,16 @@ footer .maior {
   border: none;
   text-align: center;
   padding: 17px 60px;
-
+   transition: background-color 0.15s ease-in-out;
+}
+.total_compraT button:active{
+  background-color: rgb(5, 107, 9);
 
 }
+
+
+
+
 #button{
   text-align: center;
   align-items: center;
