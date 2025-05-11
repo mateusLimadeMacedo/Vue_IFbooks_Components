@@ -11,7 +11,7 @@ const produtos = reactive([
     autor: 'Cassandra Clare',
     preco: 23.24,
     quantidade: 1,
-    capa: 'public/imgs/chain of torn.jpeg',
+    capa: '/imgs/chain of torn.jpeg',
     precoSoma: 23.24,
   },
   {
@@ -20,7 +20,7 @@ const produtos = reactive([
     autor: 'Cassandra Clare',
     preco: 23.24,
     quantidade: 1,
-    capa: 'public/imgs/chai of torn vdd.jpeg',
+    capa: '/imgs/chai of torn vdd.jpeg',
     precoSoma: 23.24,
   },
   {
@@ -29,7 +29,7 @@ const produtos = reactive([
     autor: 'Cassandra Clare',
     preco: 13.94,
     quantidade: 1,
-    capa: 'public/imgs/city of.jpeg',
+    capa: '/imgs/city of.jpeg',
     precoSoma: 13.94,
   },
   {
@@ -38,7 +38,7 @@ const produtos = reactive([
     autor: 'Cassandra Clare',
     preco: 16.84,
     quantidade: 1,
-    capa: 'public/imgs/clock work.jpeg',
+    capa: '/imgs/clock work.jpeg',
     precoSoma: 16.84,
   },
   {
@@ -47,7 +47,7 @@ const produtos = reactive([
     autor: 'Colson Whitehead',
     preco: 26.92,
     quantidade: 1,
-    capa: 'public/imgs/parece um quadrino.jpeg',
+    capa: '/imgs/parece um quadrino.jpeg',
     precoSoma: 26.92,
   },
   {
@@ -56,7 +56,7 @@ const produtos = reactive([
     autor: 'Velma Wallis',
     preco: 13.95,
     quantidade: 1,
-    capa: 'public/imgs/women.jpeg',
+    capa: '/imgs/women.jpeg',
     precoSoma: 13.95,
   },
   {
@@ -65,7 +65,7 @@ const produtos = reactive([
     autor: 'Taylor Jenkins Reid',
     preco: 26.04,
     quantidade: 1,
-    capa: 'public/imgs/carrie soto.jpeg',
+    capa: '/imgs/carrie soto.jpeg',
     precoSoma: 26.04,
   },
   {
@@ -74,7 +74,7 @@ const produtos = reactive([
     autor: 'Emily Henry',
     preco: 15.81,
     quantidade: 1,
-    capa: 'public/imgs/book lovers.png',
+    capa: '/imgs/book lovers.png',
     precoSoma: 15.81,
   }
 ]);
